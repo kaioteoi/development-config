@@ -18,6 +18,7 @@ var gulp = require('gulp'),
  */
 
 var onError = function (err) {
+  console.log(err);
   this.emit('end');
 };
 
