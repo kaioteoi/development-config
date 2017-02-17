@@ -2,7 +2,7 @@
 Util development configuration that includes CSS styles pre-compiler and scripts minification, also with LiveReload feature for real time browser reload.
 
 ## Pre-requisites
-### Node JS and NPM
+### NodeJS and NPM
 There's recommended yo have **[Node JS](https://nodejs.org/en/)** installed in your computer, we'll use a feature from node: the **[Node Package Manager (npm)](https://www.npmjs.com/)** to download all package dependencies used in daily web development.
 
 [Click here](https://nodejs.org/en/download/) for NodeJS download.
