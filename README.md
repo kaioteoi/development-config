@@ -3,7 +3,7 @@ Util development configuration that includes CSS styles pre-compiler and scripts
 
 ## IMPORTANT
 ### Livereload
-In order to synchronize your code update with your browser, don't forget to add the **[Livereload extension](http://livereload.com/extensions/){:target="_blank"}** to your browser.
+In order to synchronize your code update with your browser, don't forget to add the **[Livereload extension](http://livereload.com/extensions/)** to your browser.
 
 ## Folder structure
 
