@@ -25,7 +25,7 @@ Or simply [click here](https://github.com/kaioteoi/development-config/archive/ma
 * Then, copy **package.json** and **gulpfile.js** in your project root directory.
 * Now in your terminal, access your project folder and type `npm install` to download and install all dev dependencies listed in our **package.json**.
 * After download finishing, use the command `gulp watch` in your terminal
-* To active the **Livereload** in your browser, open your project file in browser and click once on **livereload extension icon**.
+* To active **Livereload** in your browser, open your project file in browser and click once on **livereload extension icon**.
 * Happy coding !
 
 ## Folder structure
