@@ -25,6 +25,7 @@ In order to synchronize your code saving with your browser reload, don't forget 
 
 * [Click here to download the configuration files directly from this repo.](https://github.com/kaioteoi/development-config/archive/master.zip)
 * Copy/move **package.json** and **gulpfile.js** files to your project root directory.
+* Create `/src` folder with same folder structure as [described below](#folder-structure).
 * In terminal, access your project folder and use the command `npm install` to download all dev dependencies listed in **package.json**.
 * Initialize gulp task using the command `gulp watch` in your terminal.
 * To active **Livereload** in your browser, open your project file in browser and click once on **livereload extension icon** in right top of your browser.
