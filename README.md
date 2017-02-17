@@ -7,9 +7,7 @@ In order to synchronize your code update with your browser, don't forget to add 
 
 ## Folder structure
 
-There is a pre-set for the /src folder structure.
-
-The basic structure is as follows:
+In this configuration there is a pre-set __/src__ folder structure as follows:
 ```
 /root
   gulpfile.js
@@ -20,6 +18,6 @@ The basic structure is as follows:
     /images
     /fonts
 ```
-After running the **"build"** task, we will have a auto generated __/dist__ folder right in your __/root__, following the same __/src__ structure (regardless for __/scss__ that we'll keep only locally).
+After running the **"build"** task, automatically the __/dist__ folder will be created right in your __/root__, following the same __/src__ structure (except for __/scss__ that we'll keep only locally).
 
 Feel free to rename or update the folder structure, don't forget to update the directory reference in **gulpfile.js**.
