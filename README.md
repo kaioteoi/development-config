@@ -3,7 +3,7 @@ Util development configuration that includes CSS styles pre-compiler and scripts
 
 ## Pre-requisites
 ### Node JS and NPM
-There's recommended yo have **Node JS** installed in your computer, we'll use a feature from node: the **Node Package Manager (npm)** to download all package dependencies used in daily web development.
+There's recommended yo have **[Node JS](https://nodejs.org/en/)** installed in your computer, we'll use a feature from node: the **[Node Package Manager (npm)](https://www.npmjs.com/)** to download all package dependencies used in daily web development.
 
 [Click here](https://nodejs.org/en/download/) for NodeJS download.
 
