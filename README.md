@@ -19,7 +19,7 @@ After installing **npm**, use the command `npm install -g gulp` to install globa
 *With __gulp__ installed globally you can use `gulp` commands in any of your projects*
 
 ### Livereload
-In order to synchronize your code update with your browser, don't forget to add the **[Livereload extension](http://livereload.com/extensions/)** to your browser.
+In order to synchronize your code saving with your browser reload, don't forget to add the **[Livereload extension](http://livereload.com/extensions/)** to your browser.
 
 ## Usage
 
