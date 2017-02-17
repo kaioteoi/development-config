@@ -5,7 +5,7 @@ Util development configuration that includes CSS styles pre-compiler and scripts
 ### NodeJS and NPM
 Install **[Node JS](https://nodejs.org/en/)**, we'll use **[Node Package Manager (npm)](https://www.npmjs.com/)** from it to download all packages.
 
-[NodeJS download](https://nodejs.org/en/download/)
+**[NodeJS download](https://nodejs.org/en/download/)**
 
 #### Testing NodeJS and npm
 In your terminal type `node -v`.
@@ -14,7 +14,7 @@ The current installed version should be displayed.
 We can repeat this step for NPM typing `npm -v`.
 
 ### Gulp
-After installing **npm**, use the command `npm install -g gulp` to install globally [Gulp](http://gulpjs.com/), our development workflow tool.
+After installing **npm**, use the command `npm install -g gulp` to install globally **[Gulp](http://gulpjs.com/)**, our development workflow tool.
 
 ### Livereload
 In order to synchronize your code update with your browser, don't forget to add the **[Livereload extension](http://livereload.com/extensions/)** to your browser.
