@@ -3,29 +3,29 @@ Util development configuration that includes CSS styles pre-compiler and scripts
 
 ## Pre-requisites
 ### NodeJS and NPM
-There's recommended yo have **[Node JS](https://nodejs.org/en/)** installed in your computer, we'll use a feature from node: the **[Node Package Manager (npm)](https://www.npmjs.com/)** to download all package dependencies used in daily web development.
+Install **[Node JS](https://nodejs.org/en/)**, we'll use **[Node Package Manager (npm)](https://www.npmjs.com/)** from it to download all packages.
 
-[Click here](https://nodejs.org/en/download/) for NodeJS download.
+[NodeJS download](https://nodejs.org/en/download/)
 
-After downloading and finishing the installation, test node in your terminal by typing `node -v`.
+#### Testing NodeJS and npm
+In your terminal type `node -v`.
 The current installed version should be displayed.
 
 We can repeat this step for NPM typing `npm -v`.
 
 ### Gulp
-After having **npm** installed and tested, open your terminal and type `npm install -g gulp` to install globally [Gulp](http://gulpjs.com/), our development workflow tool.
+After installing **npm**, use the command `npm install -g gulp` to install globally [Gulp](http://gulpjs.com/), our development workflow tool.
 
 ### Livereload
 In order to synchronize your code update with your browser, don't forget to add the **[Livereload extension](http://livereload.com/extensions/)** to your browser.
 
 ## Usage
 
-* If you have installed **Git Bash** use `git clone` to download config files to your computer.
-Or simply [click here](https://github.com/kaioteoi/development-config/archive/master.zip) to download direct from my repo.
-* Then, copy **package.json** and **gulpfile.js** in your project root directory.
-* Now in your terminal, access your project folder and type `npm install` to download and install all dev dependencies listed in our **package.json**.
-* After download finishing, use the command `gulp watch` in your terminal
-* To active **Livereload** in your browser, open your project file in browser and click once on **livereload extension icon**.
+* [Click here to download files directly from this repo.](https://github.com/kaioteoi/development-config/archive/master.zip)
+* Copy/move **package.json** and **gulpfile.js** files to your project root directory.
+* In terminal, access your project folder and use the command `npm install` to download all dev dependencies listed in **package.json**.
+* Initialize gulp task using the command `gulp watch` in your terminal.
+* To active **Livereload** in your browser, open your project file in browser and click once on **livereload extension icon** in right top of your browser.
 * Happy coding !
 
 ## Folder structure
