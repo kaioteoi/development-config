@@ -1,8 +1,8 @@
 # development-config
 Util development configuration that includes CSS styles pre-compiler and scripts minification, also with LiveReload feature for real time browser reload.
 
-## Livereload
-###IMPORTANT
+## IMPORTANT
+### Livereload
 In order to synchronize your code update with your browser, don't forget to add the **<a href="http://livereload.com/extensions/" target="_blank">Livereload extension</a>** to your browser.
 
 ## Folder structure
