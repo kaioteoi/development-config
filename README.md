@@ -6,7 +6,7 @@ Util development configuration that includes CSS styles pre-compiler and scripts
 There is a pre-set for the /src folder structure.
 
 The basic structure is as follows:
-'''
+```
 /root
   gulpfile.js
   package.json
@@ -15,4 +15,4 @@ The basic structure is as follows:
     /scss
     /images
     /fonts
-'''
+```
