@@ -21,7 +21,7 @@ In order to synchronize your code update with your browser, don't forget to add 
 
 ## Usage
 
-* [Click here to download files directly from this repo.](https://github.com/kaioteoi/development-config/archive/master.zip)
+* [Click here to download the configuration files directly from this repo.](https://github.com/kaioteoi/development-config/archive/master.zip)
 * Copy/move **package.json** and **gulpfile.js** files to your project root directory.
 * In terminal, access your project folder and use the command `npm install` to download all dev dependencies listed in **package.json**.
 * Initialize gulp task using the command `gulp watch` in your terminal.
