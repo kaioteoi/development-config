@@ -15,6 +15,7 @@ We can repeat this step for NPM typing `npm -v`.
 
 ### Gulp
 After installing **npm**, use the command `npm install -g gulp` to install globally **[Gulp](http://gulpjs.com/)**, our development workflow tool.
+*With **gulp** installed globally you can use `gulp` commands in any of your projects*
 
 ### Livereload
 In order to synchronize your code update with your browser, don't forget to add the **[Livereload extension](http://livereload.com/extensions/)** to your browser.
