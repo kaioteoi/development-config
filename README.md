@@ -21,7 +21,7 @@ In order to synchronize your code update with your browser, don't forget to add 
 ## Usage
 
 * If you have installed **Git Bash** use `git clone` to download config files to your computer.
-Or simply (click here)[https://github.com/kaioteoi/development-config/archive/master.zip] to download direct from my repo.
+Or simply [click here](https://github.com/kaioteoi/development-config/archive/master.zip) to download direct from my repo.
 * Then, copy **package.json** and **gulpfile.js** in your project root directory.
 * Now in your terminal, access your project folder and type `npm install` to download and install all dev dependencies listed in our **package.json**.
 * After download finishing, use the command `gulp watch` in your terminal
