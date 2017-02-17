@@ -30,7 +30,7 @@ Or simply [click here](https://github.com/kaioteoi/development-config/archive/ma
 
 ## Folder structure
 
-In this configuration there is a pre-set `src` folder structure as follows:
+In this configuration there is a pre-set `/src` folder structure as follows:
 ```
 /root
   gulpfile.js
@@ -41,6 +41,6 @@ In this configuration there is a pre-set `src` folder structure as follows:
     /images
     /fonts
 ```
-After running the **"build"** task, automatically the `dist` folder will be created right in your `root`, following the same `src` structure (except for `scss` that we'll keep only locally and send only `css` compiled files for any deployment).
+After running the **"build"** task, automatically the `/dist` folder will be created right in your `/root`, following the same `/src` structure (except for `/scss` that we'll keep only locally and send only `/css` compiled files for any deployment).
 
 Feel free to rename or update the folder structure, don't forget to update the directory reference in **gulpfile.js**.
