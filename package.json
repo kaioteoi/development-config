@@ -1,7 +1,7 @@
 {
   "name": "development-config",
   "version": "1.0.0",
-  "description": "Pracion: Evolving and sharing knowledge.",
+  "description": "Util development configuration that includes CSS styles pre-compiler and scripts minification, also with LiveReload feature for real time browser reload.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
