@@ -1,5 +1,6 @@
-var gulp = require('gulp'),
-    del = require('del'),
+var gulp = require('gulp');
+
+var del = require('del'),
     sass = require('gulp-sass'),
     gulpIf = require('gulp-if'),
     cache = require('gulp-cache'),
@@ -61,6 +62,12 @@ gulp.task('watch', ['sass','html','js'], function (){
  *
  */
 
+
+gulp.task('another-files:src', function() {
+  return gulp.src(['src/**/*.json','src/**/*.xml'])
+  .pipe(gulp.dest('dist'))
+ });
+
 gulp.task('useref', function(cb){
   return gulp.src('src/*.html')
     .pipe(useref())
@@ -91,7 +98,7 @@ gulp.task('clean:dist', function() {
 
 gulp.task('build', function(callback) {
   runSequence(['clean:dist','sass'],
-    ['useref','images','fonts'],
+    ['useref','images','fonts','another-files:src'],
     callback
   )
 });
